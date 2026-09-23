@@ -103,10 +103,19 @@ Preview what will be included before publishing:
 npm pack --dry-run
 ```
 
-Only `bin/`, `src/`, `README.md`, and `package.json` are shipped (see the
-`files` field).
+Only `bin/`, `src/`, `README.md`, `LICENSE`, and `package.json` are shipped
+(see the `files` field).
 
 > **Note on the name:** `genfab` is unscoped. If it is already taken on the
 > public registry, either rename the package or publish under a scope, e.g.
 > `"name": "@your-org/genfab"` — a scoped public package still requires the
 > `publishConfig.access: public` that is already set here.
+
+## License
+
+[PolyForm Noncommercial License 1.0.0](./LICENSE). Free to use for
+noncommercial purposes (personal, hobby, research, education, nonprofits,
+government). Commercial use requires a separate license from the author.
+
+This is not an OSI-approved open source license, so npm and GitHub will show it
+as a non-standard license.

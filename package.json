@@ -24,10 +24,11 @@
   "files": [
     "bin",
     "src",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "license": "PolyForm-Noncommercial-1.0.0"
 }
