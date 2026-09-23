@@ -8,9 +8,9 @@ import {
   unlinkSync,
 } from "node:fs";
 import { join, resolve } from "node:path";
-import { runKicadCli } from "./kicad.ts";
-import { nonExcludedViolations } from "./erc.ts";
-import { generateBom, generatePos } from "./generators.ts";
+import { runKicadCli } from "./kicad.js";
+import { nonExcludedViolations } from "./erc.js";
+import { generateBom, generatePos } from "./generators.js";
 
 const GERBVIEW =
   "/Applications/KiCad/KiCad.app/Contents/Applications/gerbview.app/Contents/MacOS/gerbview";

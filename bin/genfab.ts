@@ -1,17 +1,17 @@
-#!/usr/bin/env -S node
+#!/usr/bin/env node
 
 import { existsSync, mkdirSync } from "node:fs";
 import { basename, join } from "node:path";
-import { parseArgs } from "../src/cli.ts";
-import { findKicadCli } from "../src/kicad.ts";
-import { gitHash, gitTag } from "../src/git.ts";
+import { parseArgs } from "../src/cli.js";
+import { findKicadCli } from "../src/kicad.js";
+import { gitHash, gitTag } from "../src/git.js";
 import {
   generateBom,
   generateNetlist,
   generatePos,
   requireSchematic,
-} from "../src/generators.ts";
-import { runFullFlow } from "../src/fullflow.ts";
+} from "../src/generators.js";
+import { runFullFlow } from "../src/fullflow.js";
 
 async function main(): Promise<void> {
   const opts = parseArgs(process.argv.slice(2));

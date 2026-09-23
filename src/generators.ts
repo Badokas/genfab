@@ -1,6 +1,6 @@
 import { existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { runKicadCli } from "./kicad.ts";
+import { runKicadCli } from "./kicad.js";
 
 export async function generateBom(
   cli: string,
