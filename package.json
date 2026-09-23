@@ -1,0 +1,33 @@
+{
+  "name": "genfab",
+  "version": "1.0.0",
+  "description": "Generate manufacturing outputs (gerbers, drill, BOM, netlist, pick-and-place) for a KiCad project.",
+  "type": "module",
+  "bin": {
+    "genfab": "./bin/genfab.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "genfab": "node ./bin/genfab.ts"
+  },
+  "keywords": [
+    "kicad",
+    "gerber",
+    "pcb",
+    "bom",
+    "pick-and-place",
+    "manufacturing",
+    "cli"
+  ],
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
