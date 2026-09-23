@@ -12,6 +12,15 @@
   "scripts": {
     "genfab": "node ./bin/genfab.ts"
   },
+  "author": "void9",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Badokas/genfab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Badokas/genfab/issues"
+  },
+  "homepage": "https://github.com/Badokas/genfab#readme",
   "keywords": [
     "kicad",
     "gerber",
